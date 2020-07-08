@@ -80,8 +80,8 @@ class Ajax_Filter_Posts {
     $script_variables = [
       'nonce' => wp_create_nonce( 'filter-posts-nonce' ),
       'ajaxUrl' => admin_url( 'admin-ajax.php' ),
-      'timeoutMessage' => __('It took to long the get the posts. Please reload the page and try again.', 'ajax-filter-posts'),
-      'serverErrorMessage' => __('Got no response. Please reload the page and try again.', 'ajax-filter-posts'),
+      'timeoutMessage' => __('Troppo tempo per caricare i contenuti. Per facore ricarica e prova di nuovo.', 'ajax-filter-posts'),
+      'serverErrorMessage' => __('Nessuna risposta. Per favore ricarica e prova di nuovo.', 'ajax-filter-posts'),
     ];
 
     // IF WPML is installed add language variable to set variable later during the query
@@ -186,7 +186,7 @@ class Ajax_Filter_Posts {
     if ($response) {
       wp_send_json_success($response);
     } else {
-      wp_send_json_error(__('Oops, something went wrong. Please reload the page and try again.', 'ajax-filter-posts'));
+      wp_send_json_error(__('Qualcosa è andato storto. Per favore ricarica e prova di nuovo.', 'ajax-filter-posts'));
     }
     die();
   }
@@ -311,7 +311,7 @@ class Ajax_Filter_Posts {
     }
 
     if ( !file_exists( $template ) ) {
-      _doing_it_wrong( __FUNCTION__, sprintf( '<code>%s</code> does not exist.', $template ), '4.6.0' );
+      _doing_it_wrong( __FUNCTION__, sprintf( '<code>%s</code> non esiste.', $template ), '4.6.0' );
       return;
     }
 
