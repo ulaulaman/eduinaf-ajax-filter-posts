@@ -14,9 +14,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Ajax Filter Posts Edu INAF ver
- * Plugin URI:        http://www.robbertdekuiper.com
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           0.2.0
+ * Plugin URI:        https://github.com/ulaulaman/eduinaf-ajax-filter-posts
+ * Description:       Personalizzazione del plugin per i filtri ajax
+ * Version:           0.2.1
  * Author:            Robbert de Kuiper
  * Author URI:        http://www.robbertdekuiper.com
  * License:           GPL-2.0+
