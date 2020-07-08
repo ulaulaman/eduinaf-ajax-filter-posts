@@ -12,8 +12,8 @@
     </ul>
     <?php if (count($filterlist['filters']) >= 1): ?>
       <div class="ajax-posts__filter-toggle">
-        <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-show">Toon meer</a>
-        <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-hide">Toon minder</a>
+        <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-show">Mostra</a>
+        <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-hide">Nascondi</a>
       </div>
   <?php endif; ?>
   </div>
