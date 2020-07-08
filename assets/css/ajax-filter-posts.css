@@ -380,6 +380,14 @@
   color: #999;
 }
 
+.ajax-posts__filters h2 {  
+  margin: 0;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: bold;
+}
+
 .ajax-posts__filters h3 {  
     margin: 0;
     font-size: 0.8rem;
