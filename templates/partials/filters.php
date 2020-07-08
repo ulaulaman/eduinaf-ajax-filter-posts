@@ -1,6 +1,6 @@
 <?php foreach ($filterlists as $filterlist) : ?>
   <div class="ajax-posts__filterlist">
-    <h3><?= $filterlist['name'] ?></h3>
+    <h2><?= $filterlist['name'] ?></h2>
     <ul>
       <?php foreach ($filterlist['filters'] as $filter) : ?>
         <li>
