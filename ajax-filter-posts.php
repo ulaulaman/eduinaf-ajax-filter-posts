@@ -13,7 +13,7 @@
  * @package           Ajax_Filter_Posts
  *
  * @wordpress-plugin
- * Plugin Name:       Ajax filter posts
+ * Plugin Name:       Ajax Filter Posts Edu INAF ver
  * Plugin URI:        http://www.robbertdekuiper.com
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           0.2.0
