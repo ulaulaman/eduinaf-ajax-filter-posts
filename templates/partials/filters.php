@@ -10,7 +10,7 @@
         </li>
       <?php endforeach; ?>
     </ul>
-    <?php if (count($filterlist['filters']) >= 5): ?>
+    <?php if (count($filterlist['filters']) >= 1): ?>
       <div class="ajax-posts__filter-toggle">
         <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-show">Toon meer</a>
         <a href="#" class="js-collapse-filterlist ajax-posts__filter-toggle-hide">Toon minder</a>
