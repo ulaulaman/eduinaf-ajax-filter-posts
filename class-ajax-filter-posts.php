@@ -80,7 +80,7 @@ class Ajax_Filter_Posts {
     $script_variables = [
       'nonce' => wp_create_nonce( 'filter-posts-nonce' ),
       'ajaxUrl' => admin_url( 'admin-ajax.php' ),
-      'timeoutMessage' => __('Troppo tempo per caricare i contenuti. Per facore ricarica e prova di nuovo.', 'ajax-filter-posts'),
+      'timeoutMessage' => __('Troppo tempo per caricare i contenuti. Per favore ricarica e prova di nuovo.', 'ajax-filter-posts'),
       'serverErrorMessage' => __('Nessuna risposta. Per favore ricarica e prova di nuovo.', 'ajax-filter-posts'),
     ];
 
