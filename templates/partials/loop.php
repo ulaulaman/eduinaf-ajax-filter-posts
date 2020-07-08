@@ -5,6 +5,7 @@
         <a href="<?= get_the_permalink(); ?>">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'medium' ); }?>
           <h3><?php the_title(); ?></h3>
+          <?php if ( has_excerpt() ) { the_excerpt(); }?>
         </a>
       </article>            
   </div>
