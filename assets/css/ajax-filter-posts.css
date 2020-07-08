@@ -174,7 +174,7 @@
   background: none;
 }
 
-.ajax-posts__filterlist li:nth-child(n+1) {
+.ajax-posts__filterlist li:nth-child(n+6) {
   max-height: 0;
   overflow-y: hidden;
   transition: max-height 0.2s ease;
