@@ -1,6 +1,6 @@
-# WordPress Ajax Filter Posts
+# Edu INAF Ajax Filter Posts
 
-## Description
+## Descrizione
 
 Plugin per realizzare un filtro di ricerca per *post* e *custom post type*. Personalizzazione dell'originale, [*Ajax Filter Posts*](https://github.com/Robbertdk/wordpress-ajax-filter-posts) di [**Robbert de Kuiper**](http://www.robbertdekuiper.com).
 
