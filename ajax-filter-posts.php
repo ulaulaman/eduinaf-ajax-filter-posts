@@ -16,9 +16,8 @@
  * Plugin Name:       Ajax Filter Posts Edu INAF ver
  * Plugin URI:        https://github.com/ulaulaman/eduinaf-ajax-filter-posts
  * Description:       Personalizzazione del plugin per i filtri ajax
- * Version:           0.2.1
- * Author:            Robbert de Kuiper
- * Author URI:        http://www.robbertdekuiper.com
+ * Version:           0.2.2
+ * Author:            Robbert de Kuiper, Gianluigi Filippelli
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       ajax-filter-posts
