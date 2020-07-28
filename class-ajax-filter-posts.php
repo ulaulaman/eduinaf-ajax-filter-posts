@@ -114,6 +114,7 @@ class Ajax_Filter_Posts {
     $query = new WP_Query([
       'post_type' => $attributes['post_type'],
       'posts_per_page' => $attributes['posts_per_page'],
+      'posts_per_page' => $attributes['posts_per_page'],
     ]);
 
     $plural_post_name = strtolower(get_post_type_object($query->query['post_type'])->labels->name);
@@ -178,7 +179,8 @@ class Ajax_Filter_Posts {
         'paged'          => $page,
         'post_type'      => $post_type,
         'posts_per_page' => $quantity,
-        'tax_query'      => $tax
+        'tax_query'      => $tax,
+        'post_status'    => 'publish'
     ];
     
     $response = $this->get_filter_posts($args, $language);
