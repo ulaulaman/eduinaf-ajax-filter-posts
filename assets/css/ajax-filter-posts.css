@@ -407,7 +407,7 @@
 }
 
 .ajax-posts__filter:hover,
-.ajax-posts__filter.is-active, {
+.ajax-posts__filter.is-active {
   color: #27ae60;
   text-decoration: none;
 }
@@ -417,7 +417,7 @@
 }
 
 .ajax-posts__post h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 0.8rem;
 }
