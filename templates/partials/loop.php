@@ -7,14 +7,14 @@
           <h3><?php the_title(); ?></h3>
           <?php if ( has_excerpt() ) { the_excerpt(); }?>
         </a>
-      </article>            
+      </article>     
   </div>
  <?php endwhile; ?>
  <?php if (!$this->is_last_page($query)) : ?>
   <div class="ajax-posts__load-more">
     <button class="js-load-more" data-page="<?= $this->get_page_number($query) + 1; ?>">
-      <?php _e('Carica altro', 'ajax-filter-posts') ?>        
-    </button>            
+      <?php _e('Carica altro', 'ajax-filter-posts') ?>
+    </button>
   </div>
    <?php endif; ?>
 <?php else: ?>
