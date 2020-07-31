@@ -35,5 +35,6 @@ La personalizzazione ha implicato traduzione delle parti in inglese senza aggiun
 Si consiglia di clonare il [*repository* originale](https://github.com/Robbertdk/wordpress-ajax-filter-posts) e seguire le istruzioni.
 
 == Changelog ==
+* 0.2.3 Aumento delle dimensioni del titolo del post dentro il *loop* e correzione codice css.
 * 0.2.2 Sistemata la ricerca in modo tale da non far comparire i *post* con *status* personalizzato.
 * 0.2.1 Traduzione in italiano dei messaggi senza l'uso dei *file* multilingua. Modifiche nel *css* per migliorare leggibilità di parte della spalla dei filtri. Aggiunta del riassunto nel *loop* dei *post*.
