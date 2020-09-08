@@ -2,7 +2,7 @@
   <?php while ( $query->have_posts() ): $query->the_post();?>
     <div class="ajax-posts__post">
       <article <?php post_class(); ?>>
-        <a href="<?= get_the_permalink(); ?>">
+        <a href="<?= get_the_permalink(); ?>" target="eduinaf">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'medium' ); }?>
           <h3><?php the_title(); ?></h3>
           <?php if ( has_excerpt() ) { the_excerpt(); }?>
