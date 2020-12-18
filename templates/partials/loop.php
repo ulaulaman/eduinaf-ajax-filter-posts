@@ -4,15 +4,14 @@
       <article <?php post_class(); ?>>
         <a href="<?= get_the_permalink(); ?>" target="eduinaf">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'medium' ); }?>
-          <h3><?php the_title(); ?></h3>
+          <h3><?php the_title(); ?></h3></a>
           <?php if ( has_excerpt() ) { the_excerpt(); }?>
-        </a>
       </article>     
   </div>
  <?php endwhile; ?>
  <?php if (!$this->is_last_page($query)) : ?>
   <div class="ajax-posts__load-more">
-    <button class="js-load-more" data-page="<?= $this->get_page_number($query) + 1; ?>">
+    <button class="js-load-more" data-page="<?= $this->get_page_number($query) + 1; ?>" style="background-color: #1d71b8;">
       <?php _e('Carica altro', 'ajax-filter-posts') ?>
     </button>
   </div>
