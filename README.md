@@ -25,9 +25,10 @@ La personalizzazione ha implicato traduzione delle parti in inglese senza aggiun
 
 ## Installazione
 
-Si consiglia di clonare il [*repository* originale](https://github.com/Robbertdk/wordpress-ajax-filter-posts) e seguire le istruzioni.
+Si consiglia di clonare il [*repository* originale](https://github.com/Robbertdk/wordpress-ajax-filter-posts) e seguire le istruzioni, in particolare se avete necessità di personalizzare parte del *frontend* del *plugin*.
 
 ## Changelog
+* 0.2.5 Modificate le voci "Mostra"/"Nascondi"; tolto il *permalink* alla descrizione, che resta come solo testo: lasciato solo su *thumbnail* e titolo; aggiunto colore al bottone "Carica altro".
 * 0.2.4 Impostata apertura dei *link* in una nuova finestra
 * 0.2.3 Aumento delle dimensioni del titolo del post dentro il *loop* e correzione codice css.
 * 0.2.2 Sistemata la ricerca in modo tale da non far comparire i *post* con *status* personalizzato.
